@@ -1,0 +1,58 @@
+site_name: Data Systems Design Handbook
+site_description: HLD and LLD concepts for data engineering and analytics, in simple terms.
+site_author: Likhith Seera
+site_url: https://seeralikhith.github.io/Data_System_Design/
+repo_url: https://github.com/seeralikhith/Data_System_Design
+repo_name: seeralikhith/Data_System_Design
+
+# The navigation is built from series.yml by hooks/series.py, which also leaves
+# unreleased parts out of the site. Do not add a `nav:` section here.
+hooks:
+  - hooks/series.py
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.footer
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+validation:
+  links:
+    absolute_links: warn
+    unrecognized_links: warn
+    anchors: warn

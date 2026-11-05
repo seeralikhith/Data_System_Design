@@ -16,3 +16,9 @@ Each chapter follows the same pattern:
 New to the topic? Read in order. Designing a system now? Start with the checklist in chapter 29.
 
 Examples use a made-up online store, so the numbers are only illustrations. Tool names are common examples, not requirements.
+
+## The series
+
+The handbook is released in four parts. Each new part is announced on the [releases page](https://github.com/seeralikhith/Data_System_Design/releases), so you can watch the repository to hear when the next one is out.
+
+<!-- series -->

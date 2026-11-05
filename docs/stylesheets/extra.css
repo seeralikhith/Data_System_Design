@@ -1,0 +1,26 @@
+/* Diagrams: each figure holds a light and a dark SVG, and the theme shows one. */
+.md-typeset figure {
+  width: 100%;
+  margin: 1.6em 0;
+}
+
+.md-typeset figure img {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.md-typeset figcaption {
+  max-width: none;
+  margin-top: 0.6em;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.75rem;
+  font-style: normal;
+}
+
+/* Series cards on the home page. */
+.md-typeset .grid.cards > ul > li > hr {
+  margin: 0.6em 0;
+}

@@ -1,0 +1,33 @@
+# The handbook is published as a series, one part per release.
+#
+# Only parts with `released: true` are built into the public site. To publish
+# the next part, set its flag to true, push to main, then tag the version.
+# RELEASING.md walks through every step.
+#
+# To preview every part locally, including unreleased ones:
+#   PREVIEW_ALL=1 mkdocs serve
+
+parts:
+  - title: "Part 1: Foundations"
+    folder: part-1-foundations
+    version: v0.1.0
+    summary: What an end-to-end data system is, and how HLD and LLD split the design work.
+    released: true
+
+  - title: "Part 2: High-level design (HLD)"
+    folder: part-2-high-level-design-hld
+    version: v0.2.0
+    summary: The big choices, from requirements and processing models to storage, serving, reliability and cost.
+    released: false
+
+  - title: "Part 3: Low-level design (LLD)"
+    folder: part-3-low-level-design-lld
+    version: v0.3.0
+    summary: How each part is built, from schemas and file layout to joins, streaming, quality checks and tests.
+    released: false
+
+  - title: "Part 4: Putting it together"
+    folder: part-4-putting-it-together
+    version: v1.0.0
+    summary: A worked retail example, a design checklist and a glossary of every core term.
+    released: false
