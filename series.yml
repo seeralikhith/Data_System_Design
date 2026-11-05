@@ -18,16 +18,16 @@ parts:
     folder: part-2-high-level-design-hld
     version: v0.2.0
     summary: The big choices, from requirements and processing models to storage, serving, reliability and cost.
-    released: false
+    released: true
 
   - title: "Part 3: Low-level design (LLD)"
     folder: part-3-low-level-design-lld
     version: v0.3.0
     summary: How each part is built, from schemas and file layout to joins, streaming, quality checks and tests.
-    released: false
+    released: true
 
   - title: "Part 4: Putting it together"
     folder: part-4-putting-it-together
     version: v1.0.0
     summary: A worked retail example, a design checklist and a glossary of every core term.
-    released: false
+    released: true

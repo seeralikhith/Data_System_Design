@@ -13,9 +13,9 @@ The handbook is released in four parts. Watch this repository (Watch → Custom 
 | Release | Part | Chapters | Status |
 | --- | --- | --- | --- |
 | v0.1.0 | Part 1: Foundations | 1 to 2 | Released |
-| v0.2.0 | Part 2: High-level design (HLD) | 3 to 14 | Coming soon |
-| v0.3.0 | Part 3: Low-level design (LLD) | 15 to 27 | Coming soon |
-| v1.0.0 | Part 4: Putting it together | 28 to 30 | Coming soon |
+| v0.2.0 | Part 2: High-level design (HLD) | 3 to 14 | Released |
+| v0.3.0 | Part 3: Low-level design (LLD) | 15 to 27 | Released |
+| v1.0.0 | Part 4: Putting it together | 28 to 30 | Released |
 
 ## How the project is laid out
 
