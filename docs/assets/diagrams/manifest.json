@@ -1,0 +1,374 @@
+[
+  {
+    "file": "01-1",
+    "node": "0b952adf-c1dc",
+    "caption": "The stages of a data system, and who works on each",
+    "chapter": 1
+  },
+  {
+    "file": "01-2",
+    "node": "a524a8c0-7f0d",
+    "caption": "End-to-end data system · 5 stages and 3 cross-cutting concerns",
+    "chapter": 1
+  },
+  {
+    "file": "02-1",
+    "node": "b197df58-de40",
+    "caption": "HLD and LLD for an orders pipeline",
+    "chapter": 2
+  },
+  {
+    "file": "02-2",
+    "node": "5d1b3775-d747",
+    "caption": "From need to HLD choice to LLD work",
+    "chapter": 2
+  },
+  {
+    "file": "03-1",
+    "node": "8ee39094-cfac",
+    "caption": "The questions to ask before designing",
+    "chapter": 3
+  },
+  {
+    "file": "04-1",
+    "node": "b8799b3c-4bf8",
+    "caption": "Batch, micro-batch and streaming over the same events",
+    "chapter": 4
+  },
+  {
+    "file": "04-2",
+    "node": "db1746da-79e4",
+    "caption": "Comparing batch, micro-batch and streaming",
+    "chapter": 4
+  },
+  {
+    "file": "04-3",
+    "node": "754ab35e-d2da",
+    "caption": "Lambda vs. Kappa architecture",
+    "chapter": 4
+  },
+  {
+    "file": "05-1",
+    "node": "09d3b8fa-d6a2",
+    "caption": "ETL vs. ELT · where the transform step happens",
+    "chapter": 5
+  },
+  {
+    "file": "05-2",
+    "node": "86dcf9d5-ecdd",
+    "caption": "CDC, pull and push, and event brokers",
+    "chapter": 5
+  },
+  {
+    "file": "05-3",
+    "node": "0dafb2ee-9f19",
+    "caption": "Ingestion methods by source type",
+    "chapter": 5
+  },
+  {
+    "file": "06-1",
+    "node": "b5355e59-7efa",
+    "caption": "Row storage vs. columnar storage",
+    "chapter": 6
+  },
+  {
+    "file": "06-2",
+    "node": "6960984b-d176",
+    "caption": "Data warehouse, data lake and lakehouse",
+    "chapter": 6
+  },
+  {
+    "file": "06-3",
+    "node": "cee2d799-1d86",
+    "caption": "ACID transactions, schema enforcement and time travel",
+    "chapter": 6
+  },
+  {
+    "file": "07-1",
+    "node": "3f805d77-f354",
+    "caption": "Kimball, Inmon, Data Vault and One Big Table",
+    "chapter": 7
+  },
+  {
+    "file": "08-1",
+    "node": "eb9c9547-a8cb",
+    "caption": "A simple DAG for a sales report · 5 tasks",
+    "chapter": 8
+  },
+  {
+    "file": "08-2",
+    "node": "f440b20b-04e2",
+    "caption": "Four pipeline triggers",
+    "chapter": 8
+  },
+  {
+    "file": "09-1",
+    "node": "31467602-c0bf",
+    "caption": "Six serving patterns and who uses them",
+    "chapter": 9
+  },
+  {
+    "file": "10-1",
+    "node": "6fd0e2fc-3bfc",
+    "caption": "The core governance and security terms",
+    "chapter": 10
+  },
+  {
+    "file": "11-1",
+    "node": "e399bca8-e064",
+    "caption": "RPO and RTO on a timeline",
+    "chapter": 11
+  },
+  {
+    "file": "11-2",
+    "node": "aa49cdb1-1ae4",
+    "caption": "Eight reliability terms",
+    "chapter": 11
+  },
+  {
+    "file": "12-1",
+    "node": "4171e2fd-a242",
+    "caption": "Vertical vs. horizontal scaling",
+    "chapter": 12
+  },
+  {
+    "file": "12-2",
+    "node": "0300c66c-ad33",
+    "caption": "Separation of storage and compute",
+    "chapter": 12
+  },
+  {
+    "file": "12-3",
+    "node": "6b321b11-75ff",
+    "caption": "The CAP theorem",
+    "chapter": 12
+  },
+  {
+    "file": "13-1",
+    "node": "ab7eb0e5-3ae7",
+    "caption": "Service levels, monitors and signals",
+    "chapter": 13
+  },
+  {
+    "file": "14-1",
+    "node": "0a2dff31-3557",
+    "caption": "Central data team vs. data mesh",
+    "chapter": 14
+  },
+  {
+    "file": "14-2",
+    "node": "f7d19261-9d57",
+    "caption": "Data mesh principles, data contracts, CI/CD, IaC and FinOps",
+    "chapter": 14
+  },
+  {
+    "file": "15-1",
+    "node": "ebb55488-4b89",
+    "caption": "Star schema for order lines · 1 fact table and 4 dimensions",
+    "chapter": 15
+  },
+  {
+    "file": "15-2",
+    "node": "11b46081-bcf0",
+    "caption": "Transaction, periodic snapshot and accumulating snapshot facts",
+    "chapter": 15
+  },
+  {
+    "file": "15-3",
+    "node": "b09d9ae9-99aa",
+    "caption": "Surrogate, natural and foreign keys",
+    "chapter": 15
+  },
+  {
+    "file": "15-4",
+    "node": "e6c748bf-351f",
+    "caption": "SCD Types 1, 2 and 3 for the same change",
+    "chapter": 15
+  },
+  {
+    "file": "16-1",
+    "node": "02be9027-611a",
+    "caption": "Partitioning and compaction",
+    "chapter": 16
+  },
+  {
+    "file": "16-2",
+    "node": "004a14cd-594f",
+    "caption": "Partitioning, bucketing, clustering and indexes",
+    "chapter": 16
+  },
+  {
+    "file": "16-3",
+    "node": "8270e961-adaa",
+    "caption": "Cardinality and data skipping",
+    "chapter": 16
+  },
+  {
+    "file": "17-1",
+    "node": "38b92dc2-9874",
+    "caption": "Incremental load using a high-watermark",
+    "chapter": 17
+  },
+  {
+    "file": "17-2",
+    "node": "350251f7-d887",
+    "caption": "CDC events, checkpoints, pagination, rate limits and ingestion metadata",
+    "chapter": 17
+  },
+  {
+    "file": "17-3",
+    "node": "1bd005a4-4e05",
+    "caption": "Schema evolution · green is safe, red needs review",
+    "chapter": 17
+  },
+  {
+    "file": "18-1",
+    "node": "94a2f5f5-b7e5",
+    "caption": "Idempotent vs. non-idempotent writes",
+    "chapter": 18
+  },
+  {
+    "file": "18-2",
+    "node": "d5e929a1-e930",
+    "caption": "ROW_NUMBER, RANK, LAG and SUM() OVER on the same data",
+    "chapter": 18
+  },
+  {
+    "file": "18-3",
+    "node": "efdc4419-87be",
+    "caption": "Late facts and early facts",
+    "chapter": 18
+  },
+  {
+    "file": "19-1",
+    "node": "5e41ed4e-4599",
+    "caption": "Driver, executors, tasks, partitions and shuffles",
+    "chapter": 19
+  },
+  {
+    "file": "19-2",
+    "node": "8fa9f648-41b7",
+    "caption": "Broadcast join vs. shuffle join",
+    "chapter": 19
+  },
+  {
+    "file": "19-3",
+    "node": "63bdaa05-2143",
+    "caption": "Choosing between broadcast, sort-merge and shuffle hash joins",
+    "chapter": 19
+  },
+  {
+    "file": "19-4",
+    "node": "3f94091b-8692",
+    "caption": "A skewed job waiting on one task",
+    "chapter": 19
+  },
+  {
+    "file": "20-1",
+    "node": "ee97f9be-2a74",
+    "caption": "How a watermark handles late events",
+    "chapter": 20
+  },
+  {
+    "file": "20-2",
+    "node": "b273aabe-894b",
+    "caption": "Three window types over the same events",
+    "chapter": 20
+  },
+  {
+    "file": "20-3",
+    "node": "4ba156cb-46df",
+    "caption": "Topics, partitions, offsets and consumer groups",
+    "chapter": 20
+  },
+  {
+    "file": "20-4",
+    "node": "fe24a6cb-b340",
+    "caption": "At-most-once, at-least-once and exactly-once delivery",
+    "chapter": 20
+  },
+  {
+    "file": "21-1",
+    "node": "72ac3466-3a47",
+    "caption": "Sample rows that fail quality checks",
+    "chapter": 21
+  },
+  {
+    "file": "21-2",
+    "node": "c60f7cfc-ea3c",
+    "caption": "Quality checks at each medallion layer",
+    "chapter": 21
+  },
+  {
+    "file": "22-1",
+    "node": "ed3adfc3-7474",
+    "caption": "Deciding how to handle a failure",
+    "chapter": 22
+  },
+  {
+    "file": "22-2",
+    "node": "2dee8f0c-9b28",
+    "caption": "Exponential backoff, dead-letter queues and other safeguards",
+    "chapter": 22
+  },
+  {
+    "file": "23-1",
+    "node": "eb3f1f78-d5a5",
+    "caption": "Job settings, and how a backfill uses them",
+    "chapter": 23
+  },
+  {
+    "file": "24-1",
+    "node": "d677fdef-4b3e",
+    "caption": "How query performance techniques reduce the data read",
+    "chapter": 24
+  },
+  {
+    "file": "25-1",
+    "node": "0ac8fe1b-037a",
+    "caption": "A KPI (key performance indicator) definition card",
+    "chapter": 25
+  },
+  {
+    "file": "25-2",
+    "node": "4a15c6ed-b1fb",
+    "caption": "Additive, semi-additive and non-additive measures",
+    "chapter": 25
+  },
+  {
+    "file": "25-3",
+    "node": "a934a95a-f214",
+    "caption": "Metric definitions with and without a semantic model · made-up figures",
+    "chapter": 25
+  },
+  {
+    "file": "26-1",
+    "node": "623556d3-cfff",
+    "caption": "Row filters, column masks, tokenization and other controls",
+    "chapter": 26
+  },
+  {
+    "file": "27-1",
+    "node": "0a98bd2c-5802",
+    "caption": "Modular, config-driven pipelines and audit columns",
+    "chapter": 27
+  },
+  {
+    "file": "27-2",
+    "node": "cb43fa80-dbb6",
+    "caption": "From code change to production, with five kinds of test",
+    "chapter": 27
+  },
+  {
+    "file": "28-1",
+    "node": "1830f4ca-370c",
+    "caption": "Daily retail sales run · 3 sources and 1 audit gate",
+    "chapter": 28
+  },
+  {
+    "file": "28-2",
+    "node": "b8f12605-caeb",
+    "caption": "LLD for the retail example",
+    "chapter": 28
+  }
+]

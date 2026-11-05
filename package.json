@@ -1,0 +1,14 @@
+{
+  "name": "data-systems-design-handbook",
+  "private": true,
+  "description": "Renders the handbook's diagram sources to SVG for the MkDocs site.",
+  "type": "module",
+  "scripts": {
+    "diagrams": "node diagrams/render.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.23.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
